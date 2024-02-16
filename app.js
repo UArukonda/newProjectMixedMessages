@@ -46,7 +46,14 @@ function generateRandomMessage(messageArrays) {
     messageArrays.greeting[
       Math.floor(Math.random() * messageArrays.greeting.length)
     ];
-  console.log(randomGreet);
+  const randomSubject =
+    messageArrays.subjects[
+      Math.floor(Math.random() * messageArrays.subjects.length)
+    ];
+  const randomJoke =
+    messageArrays.jokes[Math.floor(Math.random() * messageArrays.jokes.length)];
+
+  return `${randomGreet}, ${randomSubject}! ${randomJoke}.`;
 }
 
 generateRandomMessage(mixedMessages);
