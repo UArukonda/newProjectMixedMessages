@@ -56,4 +56,4 @@ function generateRandomMessage(messageArrays) {
   return `${randomGreet}, ${randomSubject}! ${randomJoke}.`;
 }
 
-generateRandomMessage(mixedMessages);
+console.log(generateRandomMessage(mixedMessages));
