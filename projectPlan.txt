@@ -1,0 +1,30 @@
+Objective:
+To build a program in JS that generates a randomized message everytime a user runs it. The program should be able to generate different types of messages such as astrology predictions, inspirational messages, or jokes. the message should consist of three preces of data to ensure that it is random.
+
+1. Define End Result:
+    - The message generator will be a JavaScript program.
+    - It will output a random message each time it is run.
+    - The program will generate jokes.
+    - Each message will be composed of at least three different pieces of data for randomness.
+
+2. Breakdown of Tasks:
+
+    a. Define Data:
+        - Create arrays or objects containing different pieces of data for generating messages. Each array/object will correspond to a specific piece of message (jokes).
+
+    b. Generate Random Message:
+        - Write a function to select random pieces of data from the defined arrays/objects and construct a message from them.
+        - Ensure that the message is composed of at least three different pieces of data for randomness.
+
+    c. Test and Refine:
+        - Test the program thoroughly to ensure that it generates random messages as expected.
+        - Refine the code for efficiency and readability.
+        - Handle edge cases and error scenarios gracefully.
+
+3. Timeline:
+
+4. Project Scope:
+
+    Focus on building a functional message generator with the ability to produce random messages based on user preferences.
+    Avoid unnecessary features or complexities that deviate from the core objective of the project.
+    Set firm boundaries and deadlines to prevent scope creep and ensure timely completion of the project.
