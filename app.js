@@ -42,18 +42,25 @@ const mixedMessages = {
 // function to generate random message
 
 function generateRandomMessage(messageArrays) {
+  // select a random greeting
   const randomGreet =
     messageArrays.greeting[
       Math.floor(Math.random() * messageArrays.greeting.length)
     ];
+
+  // select a random greeting
   const randomSubject =
     messageArrays.subjects[
       Math.floor(Math.random() * messageArrays.subjects.length)
     ];
+
+  // select a random joke
   const randomJoke =
     messageArrays.jokes[Math.floor(Math.random() * messageArrays.jokes.length)];
 
+  // return the random message
   return `${randomGreet}, ${randomSubject}! ${randomJoke}.`;
 }
 
+// print the random message when user runs the program
 console.log(generateRandomMessage(mixedMessages));
